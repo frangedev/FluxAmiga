@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FluxAmiga - Retro Demo Player</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="player-container">
+        <h1>FluxAmiga</h1>
+        <div class="display">
+            <p id="track-info">No track loaded</p>
+        </div>
+        <div class="controls">
+            <button onclick="playTrack()">Play</button>
+            <button onclick="pauseTrack()">Pause</button>
+            <button onclick="stopTrack()">Stop</button>
+            <input type="file" id="file-input" accept="audio/*" onchange="loadTrack(event)">
+        </div>
+    </div>
+    <audio id="audio-player"></audio>
+    <script src="script.js"></script>
+</body>
+</html>
