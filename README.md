@@ -1,6 +1,6 @@
 # FluxAmiga - Retro Demo Player
 
-![FluxAmiga Logo](fluxamiga.png) 
+![FluxAmiga Logo](fluxamiga_logo.png) 
 
 Welcome to **FluxAmiga**, a web-based demo player that brings the nostalgic magic of Commodore and Amiga demos to your browser. Inspired by the golden era of retro computing, FluxAmiga lets you relive the sights and sounds of the past with a modern twist—no floppy disks required!
 
